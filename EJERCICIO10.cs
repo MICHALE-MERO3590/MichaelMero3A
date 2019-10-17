@@ -30,16 +30,16 @@ namespace Ejercicio10
                     case 2:
                         Console.WriteLine("2. SUMATORIO");
 
-                        int factoria = 1;
+                        int sumatoria = 1;
 
                         Console.Write("Ingrese un numero para encontar su sumatoria: ");
                         int numer = Convert.ToInt32(Console.ReadLine());
 
                         for (int i = numer; i > 0; i--)
                         {
-                            factoria = factoria + i;
+                            sumatoria = sumatoria + i;
                         }
-                        Console.Write("El sumatoria de " + numer + " es: " + (factoria-1));
+                        Console.Write("El sumatoria de " + numer + " es: " + (sumatoria-1));
                         Console.WriteLine("\n");
                         break;
 
