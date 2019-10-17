@@ -15,19 +15,19 @@ namespace Ejercicio1
             Console.Write("Ingrese un numero: ");
             int tres = Convert.ToInt32(Console.ReadLine());
 
-            if (uno < dos && uno < tres)
+            if (uno > dos && uno > tres)
             {
-                Console.Write("El numero menor es: " + uno);
+                Console.Write("El numero mayor es: " + uno);
             }
 
-            else if (dos < uno && dos < tres)
+            else if (dos > uno && dos > tres)
             {
-                Console.WriteLine("El numero menor es: " + dos);
+                Console.WriteLine("El numero mayor es: " + dos);
             }
 
             else
             {
-                Console.WriteLine("El numero menor es: " + tres);
+                Console.WriteLine("El numero mayor es: " + tres);
             }
         }
     }
